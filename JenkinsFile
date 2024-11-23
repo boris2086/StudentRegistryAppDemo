@@ -1,6 +1,5 @@
 pipeline{
     agent any
-    }
     stages{
         stage('Checkout'){
             steps{
@@ -29,4 +28,5 @@ pipeline{
         always{
             echo "CI pipeline completed"
         }
+    }
     }
